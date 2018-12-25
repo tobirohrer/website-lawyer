@@ -97,3 +97,17 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.text-contact {
+  margin-bottom: 0px;
+}
+
+@media(max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
