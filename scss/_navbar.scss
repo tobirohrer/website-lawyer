@@ -35,6 +35,19 @@
       }
     }
   }
+  .navbar-subtext {
+    float: left;
+    height: 40px;
+    color: $secondary;
+    padding-top: 7px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+  .navbar-center {
+    padding-right: 30px;
+  }
 }
 @media(min-width:992px) {
   #mainNav {

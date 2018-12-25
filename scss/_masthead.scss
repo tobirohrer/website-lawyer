@@ -5,10 +5,16 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-    .intro-lead-in {
+    .intro-name {
       font-size: 22px;
       line-height: 22px;
       margin-bottom: 25px;
+      @include serif-font;
+    }
+    .intro-name-secondary {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 5px;
       @include serif-font;
     }
     .intro-greeting {
@@ -25,9 +31,15 @@ header.masthead {
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
-      .intro-lead-in {
+      .intro-name {
         font-size: 40px;
         line-height: 40px;
+        margin-bottom: 5px;
+        @include serif-font;
+      }
+      .intro-name-secondary {
+        font-size: 20px;
+        line-height: 20px;
         margin-bottom: 25px;
         @include serif-font;
       }
