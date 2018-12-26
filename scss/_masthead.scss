@@ -1,4 +1,17 @@
 // Styling for the masthead
+.logo {
+  width: 200px;
+  height: 200px;
+  border-top: 25px solid $primary;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-right: 25px solid $primary;
+  position: absolute;
+  right: 0px;
+  background: transparent;
+  z-index: 100;
+}
+
 header.masthead {
   text-align: center;
   color: $secondary;
@@ -44,9 +57,9 @@ header.masthead {
         @include serif-font;
       }
       .intro-greeting {
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 40px;
+        line-height: 35px;
         margin-bottom: 50px;
         @include heading-font;
       }

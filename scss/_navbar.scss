@@ -1,6 +1,9 @@
 // Styling for the navbar
 #mainNav {
   background-color: white;
+  padding-top: 30px;
+  padding-right: 30px;
+  z-index: auto;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -46,7 +49,8 @@
     line-height: 20px;
   }
   .navbar-center {
-    padding-right: 30px;
+    width: 35%;
+    margin: 0px auto;
   }
 }
 @media(min-width:992px) {
