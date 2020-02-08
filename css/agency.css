@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.0.3 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -83,7 +83,6 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
@@ -182,14 +181,12 @@ img::-moz-selection {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: white;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
-    -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -299,7 +296,6 @@ header.masthead .intro-text .intro-greeting {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
   background: rgba(31, 79, 7, 0.9);
@@ -423,7 +419,6 @@ header.masthead .intro-text .intro-greeting {
   height: 75px;
   margin-left: 35px;
   /* IE 9 */
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   background-color: #212529;
 }
@@ -434,7 +429,6 @@ header.masthead .intro-text .intro-greeting {
   width: 1px;
   height: 75px;
   /* IE 9 */
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
 }
@@ -676,7 +670,6 @@ ul.social-buttons li a {
   display: block;
   width: 50px;
   height: 50px;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: white;
   border-radius: 100%;
