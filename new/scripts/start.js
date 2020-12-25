@@ -4,7 +4,6 @@ const path = require('path');
 const browserSyncPath = path.resolve(path.dirname(__filename), '../node_modules/.bin/browser-sync');
 
 concurrently([
-    { command: 'node scripts/sb-watch.js', name: 'SB_WATCH', prefixColor: 'bgBlue.bold' },
     {
         command: `"${browserSyncPath}" --reload-delay 2000 --reload-debounce 2000 dist -w --no-online`,
         name: 'SB_BROWSER_SYNC',
