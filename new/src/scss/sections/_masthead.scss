@@ -1,0 +1,65 @@
+// Styling for the masthead
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-top: 25px solid $primary;
+  border-bottom: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-right: 25px solid $primary;
+  position: absolute;
+  right: 0px;
+  background: transparent;
+  z-index: 100;
+}
+
+header.masthead {
+  text-align: center;
+  color: $secondary;
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    .intro-name {
+      font-size: 35px;
+      line-height: 22px;
+      margin-bottom: 25px;
+      margin-top: 40px;
+    }
+    .intro-name-secondary {
+      font-size: 20px;
+      line-height: 22px;
+      margin-bottom: 5px;
+    }
+    .intro-greeting {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      .intro-name {
+        font-size: 50px;
+        line-height: 40px;
+        margin-bottom: 5px;
+      }
+      .intro-name-secondary {
+        font-size: 32px;
+        line-height: 20px;
+        margin-bottom: 25px;
+      }
+      .intro-greeting {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 35px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
