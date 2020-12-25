@@ -13,6 +13,13 @@
   z-index: 100;
 }
 
+.two-color-point {
+  width: 34px;
+  height: 34px;
+  background-color: $secondary;
+  border-left: 17px solid $primary;
+}
+
 header.masthead {
   text-align: center;
   color: $secondary;

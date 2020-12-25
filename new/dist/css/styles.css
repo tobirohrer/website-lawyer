@@ -10129,6 +10129,13 @@ img::-moz-selection {
   z-index: 100;
 }
 
+.two-color-point {
+  width: 34px;
+  height: 34px;
+  background-color: #868e96;
+  border-left: 17px solid #1f4f07;
+}
+
 header.masthead {
   text-align: center;
   color: #868e96;
